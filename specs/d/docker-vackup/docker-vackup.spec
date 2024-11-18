@@ -4,8 +4,8 @@
 
 Name: docker-vackup
 Version: 0
-Release: 0.20241102git
-License: MIT
+Release: 1.20241102git
+License: Public Domain
 URL: https://github.com/BretFisher/docker-vackup 
 Source: docker-vackup-%{commit}.tar.gz
 BuildArch: noarch
@@ -39,5 +39,9 @@ install -m 0755 vackup %{buildroot}%{_bindir}
 %{_bindir}/vackup
 
 %changelog
-* Sun Nov 17 2024 IWAI, Masaharu <iwaim.sub@gmail.com> - 4.51-53.fc41
+* Mon Nov 18 2024 IWAI, Masaharu <iwaim.sub@gmail.com> - 1-0.20241102git
+- fix License tag
+
+* Sun Nov 17 2024 IWAI, Masaharu <iwaim.sub@gmail.com> - 0-0.20241102git
 - initial release
+
